@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Naruto;
+    src: url(font/njnaruto.ttf);
+}
+
+@font-face {
+    font-family: Penguin;
+    src: url(font/NinjaPenguin.ttf);
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+
+#title, h2, h3 {
+    font-family: Naruto, sans-serif;
+}
+
+p {
+    font-family: Penguin, sans-serif;
+    font-size: 24px;
+}
+
+#hero {
+    background-image: url("img/konohagakure.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 48px;
+    color: #fff;
+    background-color: black;
+    padding: 8px 16px;
+    border: 2px solid #F0D0A3ff;
+    border-radius: 8px;
+}
+
+.title-info {
+    font-size: 32px;
+    color: #fff;
+    background-color: dimgray;
+    padding: 8px 16px;
+    margin: 20px 0 0;
+    width: 720px;
+}
+
+#title-top {
+    font-size: 36px;
+    margin: 40px 0;
+}
+
+.location-section-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(white, black);
+}
+
+.location-section {
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.location {
+    margin-bottom: 20px;
+}
+
+.location-img {
+    border: 2px solid #F0D0A3ff;
+}
+
+.location-info {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff;
+}
+.card {
+    display: flex;
+    margin: 40px auto;
+    background-color: #3F2E2Cff;
+    width: 720px;
+    border: 2px solid #F0D0A3ff;
+    border-radius: 8px;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    padding: 16px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.card-msg {
+    color: #fff;
+    font-size: 24px;
+    padding: 0 16px;
+}
+
+.avatar-name {
+    color: #fff;
+    font-size: 32px;
+}
+
+
+
+
